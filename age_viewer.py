@@ -1,3 +1,3 @@
-age = input("what is your age?")
-age = int(age)   
+age = input("enter your age:")
+
 print(type(age))

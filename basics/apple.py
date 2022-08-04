@@ -5,3 +5,4 @@ if q == "yes" :
     print("purchase 2kg of apples")
 if  q== "no" :
     print("you don't purchase apples")
+

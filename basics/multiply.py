@@ -3,4 +3,3 @@ b = input("enter another no.")
 a = int(a)
 b = int(b) 
 ans = a * b
-print(ans)

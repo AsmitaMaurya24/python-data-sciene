@@ -1,13 +1,11 @@
-from dataclasses import replace
 from data import story
-
 print(f'total char in the story: {len(story)}')
 
 # counting substrings in a  large string
 a_count = story.count('a')
 print(f'a occurs {a_count} times.')
 the_count = story.lower().count('the')
-print(f'the occurs {the_count} times')
+print(f'the occurs {the_count} times.')
 
 # replace
 ustory = story.replace('of','on')

@@ -7,7 +7,7 @@ HEIGHT = 500
 # our variables
 p = Actor('char1', (50, 200)) 
 c = Actor('gold1', (randint(0,  WIDTH), randint(0, HEIGHT) )) 
-e = Actor('enemy', (400,200))
+e = Actor('char2', (400,200))
 
 speed = 5 # speed of movement
 espeed = 1

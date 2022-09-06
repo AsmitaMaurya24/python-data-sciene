@@ -5,7 +5,7 @@ WIDTH = 800
 HEIGHT = 500
 
 p = Actor('char1', pos= (WIDTH//2, HEIGHT//2))
-e = Actor('enemy', pos=(60,60))
+e = Actor('char2', pos=(60,60))
 c = Actor('gold1')
 
 c.x = randint(100, WIDTH-100) # c pos on x axis

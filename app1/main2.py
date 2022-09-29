@@ -4,7 +4,7 @@ how to run
 - cd app1 
 - streamlit run main2.py
 '''
-from calendar import c
+
 import streamlit as st
 
 st.title("Simple Form")
@@ -23,7 +23,7 @@ if sb:
     st.write(message)
     st.write(time)
     st.write(date)
-    st.write(file.name)
+    st.write(file)
     st.write(camera)
 
 with st.form('Another Form'):
